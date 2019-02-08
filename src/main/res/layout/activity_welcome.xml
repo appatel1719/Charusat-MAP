@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+
+    <ImageView
+        android:layout_width="1080px"
+        android:layout_height="130dp"
+        android:background="@drawable/chlogo"
+        />
+
+    <ImageView
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gate"
+        android:visibility="visible" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/whiteButton"
+        android:text="MAPS"
+        android:onClick="viewMaps"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/whiteButton"
+        android:onClick="view360"
+        android:text="360 View"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+</RelativeLayout>

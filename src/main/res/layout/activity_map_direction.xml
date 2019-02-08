@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mapDirection">
+
+    <LinearLayout
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        android:background="#000080"
+        android:weightSum="8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ADMIN"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteButton"
+            android:text="ADMIN" />
+
+        <Button
+            android:id="@+id/CSPIT"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteButton"
+            android:onClick="cspit"
+            android:text="CSPIT" />
+
+        <Button
+            android:id="@+id/PDPIAS"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteButton"
+            android:text="PDPIAS" />
+
+        <Button
+            android:id="@+id/IIIM"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteButton"
+            android:text="IIIM" />
+
+        <Button
+            android:id="@+id/RPCP"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteButton"
+            android:text="RPCP" />
+
+        <Button
+            android:id="@+id/CIPS"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteButton"
+            android:text="CIPS" />
+
+        <Button
+            android:id="@+id/MTIN"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteButton"
+            android:text="MTIN" />
+
+        <Button
+            android:id="@+id/CANTEEN"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteButton"
+            android:text="CANTEEN" />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
